@@ -14,7 +14,7 @@ keywords:
 ---
 
 Data preprocessing is one of the most critical steps before feeding data to machine learning models. A good data preprocessing can greatly improve the performence of the models. One another hand, if data is not prepared properly then the result of any model could be just "Garbage in Garbage out". 
-<!-- excerpt -->
+<!-- more -->
 Below are the typical steps to process a dataset:
 1. Load the dataset, in order to get a sense of the data
 2. Taking care of missing data (Optional)
