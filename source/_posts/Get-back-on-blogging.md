@@ -10,7 +10,7 @@ tags:
 It has been a while since I posted my last blog. Today I finally find sometime setting up this new blog site that has a nice looking theme. Now I am feeling so existed to start the new blogging journey!! 
 
 As the first post, let's talk a little about how I create this blog site. 
-
+<!-- excerpt -->
 ### Hexo - Blog Framework
 [Hexo](https://hexo.io/) is a NodeJS based blog framework. The set up is very easy, the only two things you need are NodeJS and Git. Once you have it installed and initialized, you can start blogging right away. Hexo is a complete package by itself. 
 

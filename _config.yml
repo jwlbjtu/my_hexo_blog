@@ -12,7 +12,7 @@ timezone: America/New_York
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://github.com/jwlbjtu/jwlbjtu.github.io
+url: https://jwlbjtu.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -34,7 +34,7 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -72,7 +72,30 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: icarus
+theme: tranquilpeak
+
+# RSS feed settings
+feed:
+    type: atom
+    path: atom.xml
+    limit: 20
+
+# Algolia Search
+algolia:
+  appId: "OOWEVMGXPJ"
+  apiKey: "3e34444b927397467cec8a4c4e29fec4"
+  adminApiKey: "10482f5336347df3fd5804333bbd559d"
+  chunkSize: 5000
+  indexName: "my-hexo-blog"
+  fields:
+    - title
+    - date
+    - permalink
+    - thumbnailImageUrl
+    - tags
+    - categories
+    - excerpt
+    - excerpt:strip
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
